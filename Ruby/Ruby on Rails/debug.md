@@ -1,0 +1,3 @@
+# debug
+dockerに乗っかってるrailsアプリとかだと、  
+標準出力はdockerのlogに出力されるからpとかはdockerの方を見る

@@ -1,0 +1,2 @@
+# block multiple click
+https://qiita.com/ryo511/items/2563bb61b4b4d1be9619#ok-%E3%83%95%E3%82%A9%E3%83%BC%E3%83%A0%E3%82%B3%E3%83%B3%E3%83%9D%E3%83%BC%E3%83%8D%E3%83%B3%E3%83%88%E3%81%AB%E7%8A%B6%E6%85%8B%E3%82%92%E6%8C%81%E3%81%A4

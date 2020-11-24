@@ -1,0 +1,2 @@
+# sprite kasaneruto rokunakotonai
+Sprite重ねて表示させたことが原因でハマったこと数知れず
