@@ -37,3 +37,20 @@ $ rake db:migrate
 ```
 $ rake db:migrate:status
 ```
+
+## 諸々やり直したい時
+### 開発中に rails generate や db:migrate をやり直したい時
+https://qiita.com/histori/items/7b76aaaa69f2e3ab4f06
+
+```
+$ rails generate model Foo hage
+「また、やっちゃった！」
+$ rails destroy model Foo
+「ふ～、助かった」
+（モデル名以外の引数は不要）
+
+$ rake db:migrate
+「うぎゃー」
+$ rake db:rollback
+「ふ～」
+```
