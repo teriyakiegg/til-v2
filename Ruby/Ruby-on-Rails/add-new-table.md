@@ -54,3 +54,4 @@ $ rake db:migrate
 $ rake db:rollback
 「ふ～」
 ```
+rollbackする時、対象のmigrateファイルの中身変更してるとエラー起きるので注意
