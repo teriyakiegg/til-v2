@@ -27,7 +27,8 @@ https://auth0.hatenablog.com/entry/2018/09/21/004131
 
 ## セキュリティ注意点
 ### algの改ざん
-https://www.wakuwakubank.com/posts/523-it-jwt/
+https://www.wakuwakubank.com/posts/523-it-jwt/  
+https://techblog.yahoo.co.jp/advent-calendar-2017/jwt/
 ```
 対策
 利用可能な alg をホワイトリスト形式で制限するなどの対応が必要です。
