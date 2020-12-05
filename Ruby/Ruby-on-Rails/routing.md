@@ -15,3 +15,16 @@ railsのルーティングをどういう使い方して欲しいかという思
 リソースの詳細表示に対してidを渡す場合、  
 クエリパラメータではなくてURLにidを含める。  
 クエリパラメータはオプション的なものを渡したい時に使う模様
+
+## Railsのroutingにおけるscope / namespace / module の違い
+https://qiita.com/ryosuketter/items/9240d8c2561b5989f049
+
+urlとディレクトリ構造を別のを指定したい場合をやりたくて、  
+色々要員重なって結構ハマったが、下記のようにすれば実現できた  
+```
+scope :hoge do
+    scope module: :fuga do
+
+    end
+end
+```
