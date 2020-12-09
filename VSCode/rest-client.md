@@ -37,3 +37,6 @@ http://hoge.com/api/hoge
 Authorization: Bearer hogehogehoge
 
 ```
+
+## レスポンスを保存
+右上の左から二番目のマーク押せば保存できる
