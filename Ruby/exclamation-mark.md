@@ -16,3 +16,5 @@ rubyの場合
 例：save! update!
 ```
 https://qiita.com/mao-0901/items/5d89534d5b7df752807c
+
+save!とかしたControllerの親クラスとかで、rescue_fromで拾えるようにしとくと良さげ
