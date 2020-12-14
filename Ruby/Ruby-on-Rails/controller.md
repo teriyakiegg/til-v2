@@ -5,3 +5,4 @@ Rails WayでのControllerの責務
 - ホワイトリスト化
 - Modelのロードまたはインスタンス化
 - レスポンス処理(JSON or Viewのレンダリング)
+https://immutable-tech.com/what-to-write-in-controller/
