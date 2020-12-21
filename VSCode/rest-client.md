@@ -40,3 +40,7 @@ Authorization: Bearer hogehogehoge
 
 ## レスポンスを保存
 右上の左から二番目のマーク押せば保存できる
+
+
+## 適当なメモ書きとかを下の方に書いちゃうと400のBad request出る
+ので注意。
