@@ -1,3 +1,20 @@
 # redash
-データの可視化に良さげ。MySQLやBigQueryからも参照できる  
+OSSのデータ可視化ツール。MySQLやBigQueryからも参照できる  
 https://seleck.cc/614
+
+さっと調べた感じ、Redashと比較してMetabaseというやつも良さそうな雰囲気。試してみたい
+
+[MetabaseがRedashの苦労を吹き飛ばすくらい熱い - Qiita](https://qiita.com/Ponzmild/items/adc6b8248e1e54e5e1f4)
+
+# Redash活用事例
+
+[re:dashは何が良くて、何が足りないのか - Qiita](https://qiita.com/toyama0919/items/c6c600d8bfd4dcdd69e1)
+
+メリデメがチャチャっと書いてある。
+
+上記の記事を引用するとやることは基本以下になりそう
+
+- SQLを書く
+- グラフを作る
+- ダッシュボードに組み込む
+- スケジュールを組む
