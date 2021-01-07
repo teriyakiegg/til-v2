@@ -29,6 +29,10 @@ http://www.sql-reference.com/summary/summary.html
 グループの中でどれも同じ値ならこれを使うで良い説? どの環境でも使える訳ではなさそう。BigQueryでは使える  
 →あんま気にせず、MAX()とか使っとけば良さげ
 
+GROUP BYで指定したカラム、集計関数を使うカラム以外のカラムを取得したい時↓  
+「重複行削除の際、重複判定に指定したキー列項目以外の列も取得するSQL」  
+https://a-habakiri.hateblo.jp/entry/2016/11/27/223143
+
 ### HAVING
 GROUP BYで集計関数適用した後の値に対して条件指定したい場合はHAVINGをWHEREと同じノリで使える  
 https://www.dbonline.jp/mysql/select/index10.html
