@@ -1,3 +1,3 @@
 # count null
-## [MySQL] 対象カラムがNULLのレコードをスマートにCOUNTしたい
-https://qiita.com/teriyakiegg/items/3f1bbf16e4ea54864c59
+## 【COALESCE関数で解決！】MySQLで値が NULL のデータを集計（count）したい
+https://www.seeds-std.co.jp/blog/creators/2016-01-25-112051/
