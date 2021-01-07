@@ -21,3 +21,8 @@ https://seleck.cc/614
 
 他に、アラート機能やQuery Snippetsも活用は出来そう  
 地味にFormat機能もある。あとwhereを変更するためのparameter追加も
+
+# 試した感じ
+SQLの結果が1レコードで、カラム複数みたいなテーブルだとVisualizationうまく活用できなさそう。学び。
+
+純粋に一つのQueryではGROUP BYして「カウント」、「種類」の2カラムのテーブル出すようにするのが良さげ
