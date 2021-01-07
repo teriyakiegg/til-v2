@@ -19,4 +19,5 @@ https://seleck.cc/614
 - ダッシュボードに組み込む
 - スケジュールを組む
 
-他に、アラート機能やQuery Snippetsも活用は出来そう
+他に、アラート機能やQuery Snippetsも活用は出来そう  
+地味にFormat機能もある。あとwhereを変更するためのparameter追加も
