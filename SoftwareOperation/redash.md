@@ -28,3 +28,6 @@ DashboardではテキストBOXもMarkdownで挿入できるから注意書きと
 SQLの結果が1レコードで、カラム複数みたいなテーブルだとVisualizationうまく活用できなさそう。学び。  
 純粋に一つのQueryではGROUP BYして「カウント」、「種類」の2カラムのテーブル出すようにするのが良さげ  
 (ただ、上の1レコードから要素毎にGROUP BYできれば活用できそう)
+
+# Slack連携
+https://data.gunosy.io/entry/slack-redash-kpi-notify
