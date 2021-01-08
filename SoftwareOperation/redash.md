@@ -40,3 +40,8 @@ Slackのプレビュー表示では、一つのグラフしか表示できない
 この活用事例が参考になった  
 ### 【Slack×Re:dash】リアルタイムKPI通知をコード0行で実現する
 https://data.gunosy.io/entry/slack-redash-kpi-notify
+
+Slackのremind機能でプレビュー表示も簡単にできる  
+```
+/remind #channel 何 いつ
+```
