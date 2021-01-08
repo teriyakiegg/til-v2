@@ -31,3 +31,6 @@ SQLの結果が1レコードで、カラム複数みたいなテーブルだとV
 
 # Slack連携
 https://data.gunosy.io/entry/slack-redash-kpi-notify
+
+Slackのプレビュー表示では、一つのグラフしか表示できないので、  
+表示するものを何にするかはよく吟味したい。ちなみにDashboardはプレビュー表示されなさそう
