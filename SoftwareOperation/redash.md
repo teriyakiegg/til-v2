@@ -20,7 +20,8 @@ https://seleck.cc/614
 - スケジュールを組む
 
 他に、アラート機能やQuery Snippetsも活用は出来そう  
-地味にFormat機能もある。あとwhereを変更するためのparameter追加も
+地味にFormat機能もある。あとwhereを変更するためのparameter追加も  
+Dashboardは複数のQueryの結果を組み合わせて表示できる模様。ナイス
 
 # 試した感じ
 SQLの結果が1レコードで、カラム複数みたいなテーブルだとVisualizationうまく活用できなさそう。学び。
