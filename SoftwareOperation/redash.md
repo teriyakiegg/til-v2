@@ -23,6 +23,7 @@ https://seleck.cc/614
 地味にFormat機能もある。あとwhereを変更するためのparameter追加も  
 Dashboardは複数のQueryの結果を組み合わせて表示できる模様。ナイス  
 DashboardではテキストBOXもMarkdownで挿入できるから注意書きとか書ける。  
+クエリが増えて見にくくなってきたらタグをつけて見やすく管理できる。
 
 # 試した感じ
 SQLの結果が1レコードで、カラム複数みたいなテーブルだとVisualizationうまく活用できなさそう。学び。  
