@@ -36,3 +36,7 @@ https://data.gunosy.io/entry/slack-redash-kpi-notify
 Slackのプレビュー表示では、一つのグラフしか表示できないので、  
 表示するものを何にするかはよく吟味したい。ちなみにDashboardはプレビュー表示されなさそう  
 とりあえず、ChannelにRedash追加してRedashのURL貼ればプレビュー表示される
+
+この活用事例が参考になった  
+### 【Slack×Re:dash】リアルタイムKPI通知をコード0行で実現する
+https://data.gunosy.io/entry/slack-redash-kpi-notify
