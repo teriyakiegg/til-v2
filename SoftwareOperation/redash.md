@@ -33,4 +33,5 @@ SQLの結果が1レコードで、カラム複数みたいなテーブルだとV
 https://data.gunosy.io/entry/slack-redash-kpi-notify
 
 Slackのプレビュー表示では、一つのグラフしか表示できないので、  
-表示するものを何にするかはよく吟味したい。ちなみにDashboardはプレビュー表示されなさそう
+表示するものを何にするかはよく吟味したい。ちなみにDashboardはプレビュー表示されなさそう  
+とりあえず、ChannelにRedash追加してRedashのURL貼ればプレビュー表示される
