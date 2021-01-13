@@ -17,6 +17,9 @@ yyyy/mm/ddThh:mm こんな表示が微妙な時
 2. Excel画面右上のFind&Selectから「Replace…」を選択
 3. Find what: に「T」、オプションの「Match case」にチェック、Replace with: に「 」の半角スペースを入力してReplace Allで日付内のTが半角スペースに置換され、日付はyyyy/mm/dd h:mmの形式で表示される
 
+## UTCをJSTに変換したい時
+### [Excel] 協定世界時(UTC)を日本標準時(JST)に変換する計算式
+https://a1-style.net/microsoft-365/iso8601-utc-convert/
 
 ## 出力されたcsvをExcelで開いて文字化けする場合
 下記コマンドでBOM付きのUTF-8に変換すれば大抵解消される
@@ -50,3 +53,9 @@ nfkがcommand not foundの場合、Macであればhomebrewでnfkはインスト�
 テーブル内のいずれかのセル選択状態でInsertタブから作れる。  
 カラムをレコード単位にしたりフィルターにしたりだなんだができてだいぶ便利  
 ファイルの拡張子がcsvのままだと保存できないのでxlsmにして保存が必要
+
+## コピーした内容を複数のレコードに反映したい時
+1. セル”S2”を選択。
+2. Ctrl＋Cでセル”S2”をコピー。
+3. Ctrl＋Shift＋Endで範囲選択。
+4. Enterで選択範囲にペースト。
