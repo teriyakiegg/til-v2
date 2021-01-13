@@ -14,3 +14,9 @@ receiveTimestamp<="2017-10-10T23:59:59"
 
 betaは今はいらなそう  
 https://cloud.google.com/sdk/gcloud/reference/logging/read
+
+## csvで取得
+jsonじゃなくてcsvで取得する方が楽そう。整形はExcelで
+```
+$ gcloud logging read --format="csv[separator=', '](timestamp,httpRequest.requestUrl)" 'resource.type="http_load_balancer" timestamp>="2021-01-10T15:00:00" timestamp<="2021-01-11T14:59:59"' > test.csv
+```
