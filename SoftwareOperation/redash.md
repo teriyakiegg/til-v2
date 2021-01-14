@@ -45,3 +45,8 @@ Slackのremind機能でプレビュー表示も簡単にできる
 ```
 /remind #channel 何 いつ
 ```
+
+# 異なるデータセットのJOIN
+Data Setの追加でQuery Resultsを追加して、  
+新規QueryでData SetをQuery Results選択し、  
+参照したいQueryが15とかなら SELECT * FROM query_15 とかで参照できる。
