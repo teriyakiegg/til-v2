@@ -32,6 +32,13 @@ http://sucrose.hatenablog.com/entry/2016/07/17/232638
 1TB毎に$5。1TBまでは無料。良心的。  
 https://qiita.com/kamujun/items/ab3cd3e6f8934a01cbc8
 
+#### 料金
+```
+100 MB を半月格納した場合、支払い額は $0.001（1/10 セント）です
+500 GB を半月格納した場合、支払い額は $5 です
+1 TB を 1 か月格納した場合、支払い額は $20 です
+```
+
 タイムゾーンの挙動↓  
 https://qiita.com/mswnoemail/items/04c2e47f6ff44a2248ec
 
