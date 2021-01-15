@@ -96,3 +96,8 @@ https://cloud.google.com/bigquery/docs/error-messages#metadata-errors-for-stream
 
 開発でも運用でもテーブルの中身全消ししてすぐinsertする必要がある場合は無いはずなので、(今回はたまたまやってただけで必要性は無かった)  
 こういう仕様がある、ということだけ認識しておく
+
+### update
+パーティションの有効期限セットする時とかに使う  
+https://cloud.google.com/bigquery/docs/managing-partitioned-tables?hl=ja#bq  
+https://qiita.com/Fea/items/c6ea946ad07e294450d6
