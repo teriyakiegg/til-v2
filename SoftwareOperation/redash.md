@@ -53,5 +53,5 @@ Data Setの追加でQuery Resultsを追加して、
 
 # Alert
 SlackのIncoming WebHooksの設定をして、  
-Alert DestinationにSlackを指定して
+Alert DestinationにSlackを指定して値の変動に応じて通知ができる。だいぶ楽。  
 https://kakakakakku.hatenablog.com/entry/2017/12/11/000054
