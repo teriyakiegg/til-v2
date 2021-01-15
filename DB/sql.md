@@ -66,3 +66,9 @@ https://stackoverflow.com/questions/5125076/sql-query-to-select-dates-between-tw
 
 ## INSERT/UPDATE
 あったり前だが、複数レコード一気に操作できる。
+
+## ROW_NUMBER
+行に連番を振りたい時に使える
+```
+ROW_NUMBER() OVER ()AS id
+```
