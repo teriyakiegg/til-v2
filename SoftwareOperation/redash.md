@@ -50,3 +50,8 @@ Slackのremind機能でプレビュー表示も簡単にできる
 Data Setの追加でQuery Resultsを追加して、  
 新規QueryでData SetをQuery Results選択し、  
 参照したいQueryが15とかなら SELECT * FROM query_15 とかで参照できる。
+
+# Alert
+SlackのIncoming WebHooksの設定をして、  
+Alert DestinationにSlackを指定して
+https://kakakakakku.hatenablog.com/entry/2017/12/11/000054
