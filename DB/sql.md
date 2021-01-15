@@ -72,3 +72,18 @@ https://stackoverflow.com/questions/5125076/sql-query-to-select-dates-between-tw
 ```
 ROW_NUMBER() OVER ()AS id
 ```
+
+## user_id_1, user_id_2で重複するパターンを除きたい時
+https://codingsight.com/multiple-ways-to-remove-duplicates-from-sql-tables/
+
+ここにある自身のテーブルを参照する方法を利用して、  
+```
+WHERE hoge.id IN
+    (SELECT t1.id
+     FROM hoge t1,
+          hoge t2
+     WHERE t1.id < t2.id
+       AND t1.user_id_1 = t2.user_id_2
+       AND t1.user_id_2 = t2.user_id_1) 
+```
+みたいな感じで除ける
