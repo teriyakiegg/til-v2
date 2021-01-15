@@ -29,6 +29,20 @@ BigQueryではクエリのたびに対象のテーブルをフルスキャンし
 日付毎のパーティション↓  
 http://sucrose.hatenablog.com/entry/2016/07/17/232638
 
+パーティションの種類
+```
+https://developer.medley.jp/entry/2019/03/15/145338
+- 「取り込み時間で分割」されたテーブル
+- 「特定のカラムに基づいて分割」されたテーブル
+- 「時間ベースの命名方法を使用して分割」したテーブル
+```
+
+### 日付別シャーディングテーブル hoge_yyyymmdd
+https://cloud.google.com/bigquery/docs/partitioned-tables?hl=ja
+```
+日付別シャーディング テーブルではなく、日付 / タイムスタンプ / 日時パーティション分割テーブルを使用することをおすすめします。
+```
+
 1TB毎に$5。1TBまでは無料。良心的。  
 https://qiita.com/kamujun/items/ab3cd3e6f8934a01cbc8
 
