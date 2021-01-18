@@ -18,3 +18,10 @@ mysql:
   volumes:
     - ./docker/mysql/data:/var/lib/mysql
 ```
+
+## Dockerコンテナ内からホストへ`localhost` でアクセスしてみる
+https://qiita.com/kai_kou/items/5182965ea75c85cf1e3f
+```
+localhost じゃなくて良いのなら
+host.docker.internal というDNS名が用意されているので、それを利用すればよさそうです。
+```
