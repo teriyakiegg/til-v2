@@ -29,3 +29,5 @@ docker run -d -p 12345:3000 --name metabase metabase/metabase
 
 localhost:12345 でセットアップ画面アクセス出来る。  
 MySQL、BigQueryとかメジャーなデータセットは扱える
+
+## GCEでMetabaseを構築する
