@@ -35,3 +35,8 @@ https://jonathan-holloway.medium.com/deploying-metabase-on-google-cloud-platform
 基本はこれ通りに従って作業で、ファイアウォールをやればIP直打ちでアクセス出来るようになる
 
 こっから必要に応じて、静的IPの適用、ドメイン設定、https設定する感じの流れのはず
+
+## portについて
+docker runする場合、-p 3000:3000を12345:3000とすることで、ホスト側のportを変えることが可能。  
+3000:12345のように、コンテナ内の3000を変える場合は、  
+-e MB_JETTY_PORT=12345 のように、環境変数を渡してあげれば変更可能

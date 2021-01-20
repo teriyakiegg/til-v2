@@ -5,3 +5,14 @@
 https://cloud.google.com/compute/docs/containers/configuring-options-to-run-containers#passing_arguments_to_container_entrypoint_command
 
 引数や環境変数も設定できる模様。
+
+## 超要注意
+https://cloud.google.com/compute/docs/containers/configuring-options-to-run-containers#publishing_container_ports
+```
+コンテナを伴う VM ではホスト ネットワーク モードが使用されます。
+このモードでは、コンテナはホストのネットワーク スタックを共有し、ホストのインターフェースはすべてコンテナから使用可能です。
+注: これは、docker run コマンドを使用する際に --network="host" フラグを渡すことと同じです。コンテナのネットワーク設定とホストモードをご覧ください。
+
+コンテナポートには、ホスト VM ポートへの 1 対 1 のマッピングがあります。たとえば、コンテナポート 80 はホスト VM ポート 80 にマップされます。
+Compute Engine ではポートの公開（-p）フラグをサポートしていないため、このフラグを指定しなくても、マッピングは機能します。
+```
