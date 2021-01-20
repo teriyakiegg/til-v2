@@ -31,3 +31,7 @@ localhost:12345 でセットアップ画面アクセス出来る。
 MySQL、BigQueryとかメジャーなデータセットは扱える
 
 ## GCEでMetabaseを構築する
+https://jonathan-holloway.medium.com/deploying-metabase-on-google-cloud-platform-gcp-95a8010f9a93  
+基本はこれ通りに従って作業で、ファイアウォールをやればIP直打ちでアクセス出来るようになる
+
+こっから必要に応じて、静的IPの適用、ドメイン設定、https設定する感じの流れのはず
