@@ -16,3 +16,14 @@ https://cloud.google.com/compute/docs/containers/configuring-options-to-run-cont
 コンテナポートには、ホスト VM ポートへの 1 対 1 のマッピングがあります。たとえば、コンテナポート 80 はホスト VM ポート 80 にマップされます。
 Compute Engine ではポートの公開（-p）フラグをサポートしていないため、このフラグを指定しなくても、マッピングは機能します。
 ```
+
+さらに、
+https://stackoverflow.com/questions/49365500/google-cloud-deploy-as-container-from-gcr-ports-not-exposed-in-docker-contai
+
+```
+Other than what @Stefan R has told, you should also use PORT number greater than 1000 as auto deployed container images aren't run as root and hence can't access privileged ports.
+
+https://www.staldal.nu/tech/2007/10/31/why-can-only-root-listen-to-ports-below-1024/
+
+https://www.google.co.in/search?q=privileged+ports+linux&oq=privileged+ports+linux
+```
