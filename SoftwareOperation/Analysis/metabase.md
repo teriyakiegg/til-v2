@@ -34,9 +34,18 @@ MySQL、BigQueryとかメジャーなデータセットは扱える
 https://jonathan-holloway.medium.com/deploying-metabase-on-google-cloud-platform-gcp-95a8010f9a93  
 基本はこれ通りに従って作業で、ファイアウォールをやればIP直打ちでアクセス出来るようになる
 
-こっから必要に応じて、静的IPの適用、ドメイン設定、https設定する感じの流れのはず
+こっから必要に応じて、静的IPの適用、ドメイン設定、https設定する感じの流れのはず  
+ただ、これだとhttps化とかが面倒
 
 ## portについて
 docker runする場合、-p 3000:3000を12345:3000とすることで、ホスト側のportを変えることが可能。  
 3000:12345のように、コンテナ内の3000を変える場合は、  
 -e MB_JETTY_PORT=12345 のように、環境変数を渡してあげれば変更可能
+
+## 構築についてまとめ
+基本はやっぱり公式ドキュメントに沿うのが良い。  
+公式だとAWS、Heroku、Debianでの構築がドキュメントある。  
+Debianでの構築はプラットフォームどこであれ使えるので助かる。  
+https://www.codeflow.site/ja/article/how-to-install-java-with-apt-on-debian-10  
+https://www.cloudbooklet.com/install-metabase-on-ubuntu-18-04-with-nginx-and-ssl-google-cloud/  
+これとかが構築時役に立った。
