@@ -49,3 +49,7 @@ Debianでの構築はプラットフォームどこであれ使えるので助�
 https://www.codeflow.site/ja/article/how-to-install-java-with-apt-on-debian-10  
 https://www.cloudbooklet.com/install-metabase-on-ubuntu-18-04-with-nginx-and-ssl-google-cloud/  
 これとかが構築時役に立った。
+
+## 複数データソースの結合
+Redashでは可能な複数データソースの結合、Metabaseだと現状出来ない模様。ユーザーからの要望は多そうでGitHubのissueにもリクエストは上がってはいる  
+https://www.metabase.com/docs/latest/faq/using-metabase/how-do-i-answer-questions-when-data-is-in-multiple-databases.html
