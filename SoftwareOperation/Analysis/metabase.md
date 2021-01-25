@@ -53,3 +53,9 @@ https://www.cloudbooklet.com/install-metabase-on-ubuntu-18-04-with-nginx-and-ssl
 ## 複数データソースの結合
 Redashでは可能な複数データソースの結合、Metabaseだと現状出来ない模様。ユーザーからの要望は多そうでGitHubのissueにもリクエストは上がってはいる  
 https://www.metabase.com/docs/latest/faq/using-metabase/how-do-i-answer-questions-when-data-is-in-multiple-databases.html
+
+## BigQueryのネストされたフィールド
+SQL書かないと操作できない
+
+## スプレッドシートデータ連携
+今のところ無し
