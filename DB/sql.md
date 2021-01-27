@@ -87,3 +87,8 @@ WHERE hoge.id IN
        AND t1.user_id_2 = t2.user_id_1) 
 ```
 みたいな感じで除ける
+
+## サブクエリ使う時
+WITH 名前 AS (SELECT ...) という感じで先に宣言して後のSQLでテーブルとして参照できるので、  
+WITH使うのも良し。  
+BigQueryでNo default dataset is set in the requestとなった時に救われた。
