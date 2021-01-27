@@ -81,3 +81,6 @@ SQL内なのでSQL使用必須
 Metabaseのreportのtimezoneは管理画面から変更できるが、  
 Metabaseのシステムのtimezoneの変更は管理画面から出来ないので、  
 起動時のjavaコマンドの引数に -Duser.timezone=Asia/Tokyo を追加して変更が必要。
+
+## SQLのフォーマッティング
+Redashにはあるが、Metabaseには無い。しょうがなし
