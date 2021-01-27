@@ -76,3 +76,8 @@ SQL内なのでSQL使用必須
 アラートも自動投稿も可能。  
 ただし投稿するグラフは表示できないものもある。  
 その場合ただの表が表示される。
+
+## Timezone設定
+Metabaseのreportのtimezoneは管理画面から変更できるが、  
+Metabaseのシステムのtimezoneの変更は管理画面から出来ないので、  
+起動時のjavaコマンドの引数に -Duser.timezone=Asia/Tokyo を追加して変更が必要。
