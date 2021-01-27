@@ -54,6 +54,10 @@ https://www.cloudbooklet.com/install-metabase-on-ubuntu-18-04-with-nginx-and-ssl
 Redashでは可能な複数データソースの結合、Metabaseだと現状出来ない模様。ユーザーからの要望は多そうでGitHubのissueにもリクエストは上がってはいる  
 https://www.metabase.com/docs/latest/faq/using-metabase/how-do-i-answer-questions-when-data-is-in-multiple-databases.html
 
+BigQueryとCloud SQLとかだったら、  
+BigQueryからCloud SQL連携できる。  
+その際はBigQueryをDatabaseとして追加した際に使ったサービスアカウントの権限に「BigQuery Connection User」が必要
+
 ## BigQueryのネストされたフィールド
 SQL書かないと操作できない
 
