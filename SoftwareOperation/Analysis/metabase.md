@@ -88,3 +88,9 @@ Metabaseのシステムのtimezoneの変更は管理画面から出来ないの�
 
 ## SQLのフォーマッティング
 Redashにはあるが、Metabaseには無い。しょうがなし
+
+## metricsとsegments
+metrics: ユーザー定義の集計
+segments: ユーザー定義のフィルター
+
+あんま使うことなさそう。フィルターにSQL書けないし
