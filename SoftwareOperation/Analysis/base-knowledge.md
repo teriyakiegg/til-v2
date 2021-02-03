@@ -6,6 +6,12 @@ https://www.youtube.com/watch?app=desktop&v=sid6jDQT5sg&list=PL0EFkKQ7kWoUZfndUJ
 比較することが必須。単品のデータを出してもそれは分析とは言えない  
 比較対象はApple to apple。比較軸の異なるもので比較しても意味のある分析にならない  
 
+# 分析の心得
+意思決定に役立てないと意味が無し。
+
+# 気に入ったスローガン
+ビジョン無くしてデータ活用無し
+
 # 分析の流れ
 1. 仮説がある
 2. データ整備する
