@@ -46,6 +46,9 @@ Slackのremind機能でプレビュー表示も簡単にできる
 /remind #channel 何 いつ
 ```
 
+Slackのリマインダー機能を使ってRedashのグラフをプレビュー表示させる手法、  
+たまにプレビューが表示されないのが玉に瑕
+
 # 異なるデータセットのJOIN
 Data Setの追加でQuery Resultsを追加して、  
 新規QueryでData SetをQuery Results選択し、  
