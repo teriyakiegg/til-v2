@@ -62,9 +62,14 @@ BigQueryからCloud SQL連携できる。
 SQL書かないと操作できない
 
 ## スプレッドシートデータ連携
-今のところ無し  
-ただ、big queryとスプレッドシートが連携できるので、経由で連携は可能  
-と思いきやMetabaseからBigQuery経由の場合Driveへのアクセス権が通らない匂い
+big queryとスプレッドシートが連携できるので、経由で連携は可能  
+
+https://github.com/metabase/metabase/issues/13001
+
+ただここのissueにもある通り、普通には繋げずなので、
+
+BigQueryで定期的にSpreadsheetをクエリした結果を新たなテーブルに上書きして、  
+そのテーブルをMetabaseから読み込むすればなんとか今もいける。根本対応が入るまではこれになりそう
 
 ## 閾値によるハイライト
 良い機能
