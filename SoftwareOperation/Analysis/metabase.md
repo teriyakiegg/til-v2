@@ -68,7 +68,7 @@ https://github.com/metabase/metabase/issues/13001
 
 ただここのissueにもある通り、普通には繋げずなので、
 
-BigQueryで定期的にSpreadsheetをクエリした結果を新たなテーブルに上書きして、  
+BigQueryで定期的に(スケジュールされたクエリを新規作成で)Spreadsheetをクエリした結果を新たなテーブルに上書きして、  
 そのテーブルをMetabaseから読み込むすればなんとか今もいける。根本対応が入るまではこれになりそう
 
 ## 閾値によるハイライト
