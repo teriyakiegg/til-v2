@@ -62,6 +62,7 @@ BigQueryからCloud SQL連携できる。
 SQL書かないと操作できない
 
 ## スプレッドシートデータ連携
+http://beniyama.hatenablog.jp/entry/2019/02/18/080000  
 big queryとスプレッドシートが連携できるので、経由で連携は可能  
 
 https://github.com/metabase/metabase/issues/13001
