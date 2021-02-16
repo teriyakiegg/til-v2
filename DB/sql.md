@@ -33,6 +33,11 @@ GROUP BYで指定したカラム、集計関数を使うカラム以外のカラ
 「重複行削除の際、重複判定に指定したキー列項目以外の列も取得するSQL」  
 https://a-habakiri.hateblo.jp/entry/2016/11/27/223143
 
+日付+他の要素でグルーピングしたい時は、  
+シンプルにGROUP BY date, 他の要素 で書けば良い。  
+ORDER BYに必要な要素もシンプルにGROUP BYに追加すれば良い
+
+
 ### HAVING
 GROUP BYで集計関数適用した後の値に対して条件指定したい場合はHAVINGをWHEREと同じノリで使える  
 https://www.dbonline.jp/mysql/select/index10.html
