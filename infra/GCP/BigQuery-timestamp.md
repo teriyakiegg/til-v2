@@ -63,3 +63,11 @@ https://www.toumasu-program.net/entry/2019/11/08/154528
 
 ## cast dateでgroup by
 した場合はselect文でもgroup byで使った全く同じ文を指定しないとエラーになる
+
+## 日付別テーブルでの日付範囲指定
+今までの3年分とかスキャンするの毎回億劫...が無くなる。
+```
+テーブル名に"_yyyymmdd"のサフィックスがついてるBigQueryの日付別テーブルで、直近の1週間だけを読み込む対象にしたい時のWHERE
+WHERE _TABLE_SUFFIX >= FORMAT_DATE('%Y%m%d', DATE_SUB(CURRENT_DATE(), INTERVAL 7 DAY))
+```
+http://daas.la.coocan.jp/bigquery/biguqery_jisenwaza.htm
