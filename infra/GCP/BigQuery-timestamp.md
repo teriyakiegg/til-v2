@@ -71,3 +71,11 @@ https://www.toumasu-program.net/entry/2019/11/08/154528
 WHERE _TABLE_SUFFIX >= FORMAT_DATE('%Y%m%d', DATE_SUB(CURRENT_DATE(), INTERVAL 7 DAY))
 ```
 http://daas.la.coocan.jp/bigquery/biguqery_jisenwaza.htm
+
+テーブル名にサフィックスではなく、日付カラムや自動で付与される_PARTITIONEDTIMEとかでパーティショニングされてるテーブルの場合、  
+対象のカラムに対して以下のようにやれば読み込み対象絞れる。(対象カラムをゴニョゴニョいじると読み込み対象は全ての日付に認識されてしまうので注意)
+```
+WHERE timestamp BETWEEN TIMESTAMP_TRUNC(TIMESTAMP_SUB(CURRENT_TIMESTAMP(), INTERVAL 90 DAY), DAY)
+  AND TIMESTAMP_TRUNC(CURRENT_TIMESTAMP(), DAY)
+```
+https://cloud.google.com/bigquery/docs/querying-partitioned-tables?hl=ja#querying_ingestion-time_partitioned_tables_using_pseudo_columns
