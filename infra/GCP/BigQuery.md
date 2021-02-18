@@ -103,3 +103,11 @@ https://snowsystem.net/cloud/gcp/bigqury/truncate/
 アップデートでTRUNCATE文使えるようになったっぽい(まだ試してない)  
 https://cloud.google.com/blog/ja/products/bigquery/smile-new-user-friendly-sql-capabilities-bigquery  
 https://cloud.google.com/bigquery/docs/reference/standard-sql/dml-syntax#truncate_table_statement
+
+## ネストされたkey valueの取り出し
+UNNEST使って頑張る
+```
+SELECT (SELECT value FROM UNNEST(params) WHERE key = "hoge") AS hoge
+```
+
+https://aride.medium.com/approaches-to-store-key-value-pairs-in-google-bigquery-6840d036bc10
