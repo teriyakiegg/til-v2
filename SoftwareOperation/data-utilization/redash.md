@@ -58,3 +58,8 @@ Data Setの追加でQuery Resultsを追加して、
 SlackのIncoming WebHooksの設定をして、  
 Alert DestinationにSlackを指定して値の変動に応じて通知ができる。だいぶ楽。  
 https://kakakakakku.hatenablog.com/entry/2017/12/11/000054
+
+# API
+redashでまとめたクエリについて、  
+API経由で外部プログラムから取得できるらしい。  
+詳しくは調べていない
