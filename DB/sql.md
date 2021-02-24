@@ -101,3 +101,5 @@ WHERE hoge.id IN
 WITH 名前 AS (SELECT ...) という感じで先に宣言して後のSQLでテーブルとして参照できるので、  
 WITH使うのも良し。  
 BigQueryでNo default dataset is set in the requestとなった時に救われた。
+
+WITHはMySQLだと8.0から導入された模様なので注意。
