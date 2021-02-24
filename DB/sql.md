@@ -103,3 +103,12 @@ WITH使うのも良し。
 BigQueryでNo default dataset is set in the requestとなった時に救われた。
 
 WITHはMySQLだと8.0から導入された模様なので注意。
+
+## ISNULL
+SELECT文で判定したい時、ISNULL カラム名 とかにすればnullなら1、nullで無ければ0になる  
+逆をしたい時はISNOTNULLは無いので、
+```
+SELECT (CASE WHEN カラム名 IS NOT NULL
+             THEN 1 ELSE 0 END) AS is_hoge
+```
+とかで頑張る
