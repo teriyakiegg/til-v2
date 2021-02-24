@@ -15,6 +15,10 @@ https://qiita.com/aki3061/items/6df0513ccc5aa40a075a
 ### UNION ALL
 https://sql55.com/t-sql/t-sql-union.php
 
+https://datumstudio.jp/blog/sql%E3%81%A7%E7%B8%A6%E6%8C%81%E3%81%A1%E3%81%A8%E6%A8%AA%E6%8C%81%E3%81%A1%E3%82%92%E5%A4%89%E5%BD%A2%E3%81%99%E3%82%8B
+
+縦持ちの表を横持ちにする時、完全に便利だった
+
 ### GROUP BY
 集計関数とセット  
 https://qiita.com/Go-Noji/items/5baeb790ade4b57126ff
