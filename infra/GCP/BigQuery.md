@@ -111,3 +111,8 @@ SELECT (SELECT value FROM UNNEST(params) WHERE key = "hoge") AS hoge
 ```
 
 https://aride.medium.com/approaches-to-store-key-value-pairs-in-google-bigquery-6840d036bc10
+
+## connection not found
+https://serverfault.com/questions/1047304/gcp-bigquery-fedarated-query-to-cloudsql-gives-connection-not-found-error
+
+ロケーションの異なるデータセット間でクエリをいじると発生するっぽい
