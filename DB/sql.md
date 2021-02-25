@@ -41,6 +41,9 @@ https://a-habakiri.hateblo.jp/entry/2016/11/27/223143
 シンプルにGROUP BY date, 他の要素 で書けば良い。  
 ORDER BYに必要な要素もシンプルにGROUP BYに追加すれば良い
 
+GROUP BYには条件式も使える。  
+CASE文とかも使えるので割と柔軟
+
 
 ### HAVING
 GROUP BYで集計関数適用した後の値に対して条件指定したい場合はHAVINGをWHEREと同じノリで使える  
