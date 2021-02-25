@@ -116,3 +116,10 @@ https://aride.medium.com/approaches-to-store-key-value-pairs-in-google-bigquery-
 https://serverfault.com/questions/1047304/gcp-bigquery-fedarated-query-to-cloudsql-gives-connection-not-found-error
 
 ロケーションの異なるデータセット間でクエリをいじると発生するっぽい
+
+ロケーションがどうしても変えられない場合(firebaseと連携してるやつとか)、  
+下記のドキュメントにあるように異なるロケーション間を跨ぐデータセットの定期コピーがあるので活用すべし。  
+https://cloud.google.com/bigquery/docs/locations?hl=ja#moving-data  
+料金は今は機能がベータ期間中なので無料、  
+期間後はGB単位$0.08になる模様。  
+毎日コピー走らせても毎回全テーブルではなく差分のみのコピーなので、1日分のデーブルのサイズがよほどデカく無ければコストは気になるほどではないはず
