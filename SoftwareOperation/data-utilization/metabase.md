@@ -102,3 +102,19 @@ Redashにはあるが、Metabaseには無い。しょうがなし
 - segments: ユーザー定義のフィルター
 
 あんま使うことなさそう。フィルターにSQL書けないし
+
+## BigQueryとの連携
+連携用のサービスアカウントには以下の権限があれば動く。(冗長な権限もあるかも)
+```
+BigQuery データ閲覧者
+BigQuery ジョブユーザー
+BigQuery メタデータ閲覧者
+BigQuery リソース閲覧者
+```
+あとは以下の権限あれば、Cloud SQLとの連携クエリも使えるようになる
+```
+BigQuery Connection User
+```
+サービスアカウントの権限を付与するための権限は必要なので、  
+自分に権限が無かったらresourcemanager.projects.setIamPolicyの権限を付与してもらう必要あり。  
+「Resource Manager ＞ Project IAM 管理者」ロールでOK
