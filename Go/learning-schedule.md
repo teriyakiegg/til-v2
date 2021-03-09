@@ -1,4 +1,4 @@
-# learning roadmap
+# learning schedule
 
 1. 『なぜ今Goなのか？』 講演動画  
 https://www.youtube.com/watch?v=SjfYHqS7eo4
