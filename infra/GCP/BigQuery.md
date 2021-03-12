@@ -123,3 +123,6 @@ https://cloud.google.com/bigquery/docs/locations?hl=ja#moving-data
 料金は今は機能がベータ期間中なので無料、  
 期間後はGB単位$0.08になる模様。  
 毎日コピー走らせても毎回全テーブルではなく差分のみのコピーなので、1日分のデーブルのサイズがよほどデカく無ければコストは気になるほどではないはず
+
+# SQL format
+Cmd + Shift + f
