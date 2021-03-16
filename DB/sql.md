@@ -115,3 +115,6 @@ SELECT (CASE WHEN カラム名 IS NOT NULL
              THEN 1 ELSE 0 END) AS is_hoge
 ```
 とかで頑張る
+
+## CROSS JOIN
+https://itsakura.com/sql-cross-join
