@@ -79,3 +79,8 @@ WHERE timestamp BETWEEN TIMESTAMP_TRUNC(TIMESTAMP_SUB(CURRENT_TIMESTAMP(), INTER
   AND TIMESTAMP_TRUNC(CURRENT_TIMESTAMP(), DAY)
 ```
 https://cloud.google.com/bigquery/docs/querying-partitioned-tables?hl=ja#querying_ingestion-time_partitioned_tables_using_pseudo_columns
+
+## FORMAT_TIMESTAMP
+- %a: The abbreviated weekday name.	ex) Wed
+- %b: The abbreviated month name.	ex) Jan
+https://cloud.google.com/bigquery/docs/reference/standard-sql/date_functions#supported_format_elements_for_date
