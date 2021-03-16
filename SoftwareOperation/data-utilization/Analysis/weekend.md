@@ -1,0 +1,6 @@
+# weekend
+除外
+```
+EXTRACT(DAYOFWEEK FROM DATE(date)) != 1
+AND EXTRACT(DAYOFWEEK FROM DATE(date)) != 7
+```
