@@ -118,3 +118,6 @@ BigQuery Connection User
 サービスアカウントの権限を付与するための権限は必要なので、  
 自分に権限が無かったらresourcemanager.projects.setIamPolicyの権限を付与してもらう必要あり。  
 「Resource Manager ＞ Project IAM 管理者」ロールでOK
+
+## レコード限界値
+表もグラフも2,000が限界。それを超えるレコードに関しては表示できない
