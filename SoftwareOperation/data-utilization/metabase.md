@@ -125,3 +125,7 @@ BigQuery Connection User
 ## 型について
 BigQueryのSQLでFORMAT_STRING()とかしてると、中身は日付形式でもstring型と認識されて、  
 Metabaseで使える強力な日付型でのgroupingとかができなくなるので注意
+
+## Collection
+グラフやダッシュボードをゴリゴリ作っていくと、  
+次第に一覧がカオスになってくるので、Collectionを使って整理するのが良さげ
