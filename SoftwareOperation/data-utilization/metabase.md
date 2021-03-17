@@ -131,5 +131,8 @@ Metabaseで使える強力な日付型でのgroupingとかができなくなる�
 グラフやダッシュボードをゴリゴリ作っていくと、  
 次第に一覧がカオスになってくるので、Collectionを使って整理するのが良さげ
 
-## datetimeのdayofweekでgroup
+## datetimeのdayofhourでgroup
 折れ線グラフにした時、詳細を見ようとポイントにカーソルを合わせると表示がおかしいのであんま使いたくない
+
+## datetimeのdayofhourでgroup
+syntax error...
