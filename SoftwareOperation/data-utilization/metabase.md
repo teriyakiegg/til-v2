@@ -120,7 +120,8 @@ BigQuery Connection User
 「Resource Manager ＞ Project IAM 管理者」ロールでOK
 
 ## レコード限界値
-表もグラフも2,000が限界。それを超えるレコードに関しては表示できない
+表もグラフも2,000が限界。それを超えるレコードに関しては表示できない  
+ダウンロードでは1,000,000が限界
 
 ## 型について
 BigQueryのSQLでFORMAT_STRING()とかしてると、中身は日付形式でもstring型と認識されて、  
