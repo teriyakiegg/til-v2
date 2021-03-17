@@ -121,3 +121,7 @@ BigQuery Connection User
 
 ## レコード限界値
 表もグラフも2,000が限界。それを超えるレコードに関しては表示できない
+
+## 型について
+BigQueryのSQLでFORMAT_STRING()とかしてると、中身は日付形式でもstring型と認識されて、  
+Metabaseで使える強力な日付型でのgroupingとかができなくなるので注意
