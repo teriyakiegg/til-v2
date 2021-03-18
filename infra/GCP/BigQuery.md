@@ -46,17 +46,32 @@ https://cloud.google.com/bigquery/docs/partitioned-tables?hl=ja
 1TB毎に$5。1TBまでは無料。良心的。  
 https://qiita.com/kamujun/items/ab3cd3e6f8934a01cbc8
 
-#### 料金
+### 料金
+https://cloud.google.com/bigquery/pricing?hl=ja
 ```
 100 MB を半月格納した場合、支払い額は $0.001（1/10 セント）です
 500 GB を半月格納した場合、支払い額は $5 です
 1 TB を 1 か月格納した場合、支払い額は $20 です
 ```
+上記はストレージ料金。
 
-タイムゾーンの挙動↓  
+クエリ発行の分析料金に関しては、  
+- オンデマンド
+- 定額
+の二つがある。  
+オンデマンドの場合、  
+毎月 1 TB まで無料。  
+1TBを超えるクエリに関しては、  
+```
+$6.00 per TB
+```
+リージョンが東京だと$6.00、米国だと$5.00だったりする。  
+10GBで6円と覚えておく
+
+### タイムゾーンの挙動↓
 https://qiita.com/mswnoemail/items/04c2e47f6ff44a2248ec
 
-権限によるbigquery操作可能範囲↓  
+### 権限によるbigquery操作可能範囲↓
 https://christina04.hatenablog.com/entry/2017/06/22/010755
 
 ## データの取り込み方法は2つ
