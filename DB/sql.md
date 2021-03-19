@@ -124,3 +124,9 @@ https://itsakura.com/sql-cross-join
 
 ## ORDER BY 2 DESC
 この2はテーブルの2番目のカラムでorderするよという意味
+
+## WHERE TRUE
+```
+条件を変更するときに最初の1行で AND をいちいち追加・削除せずに済む
+```
+カッコ良い。
