@@ -118,3 +118,9 @@ SELECT (CASE WHEN カラム名 IS NOT NULL
 
 ## CROSS JOIN
 https://itsakura.com/sql-cross-join
+
+## FROM テーブル名 エイリアス
+てな感じで気楽にエイリアス付けられる。長いやつには便利
+
+## ORDER BY 2 DESC
+この2はテーブルの2番目のカラムでorderするよという意味
