@@ -135,7 +135,8 @@ Metabaseで使える強力な日付型でのgroupingとかができなくなる�
 折れ線グラフにした時、詳細を見ようとポイントにカーソルを合わせると表示がおかしいのであんま使いたくない
 
 ## datetimeのdayofhourでgroup
-syntax error...
+syntax error...  
+バージョンアップデートを試してみる
 
 ## date型でダウンロード
 時間も出力される...
