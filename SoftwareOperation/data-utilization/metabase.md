@@ -89,6 +89,8 @@ SQL内なのでSQL使用必須
 ただし投稿するグラフは表示できないものもある。  
 その場合ただの表が表示される。
 
+metabotでグラフ表示させようとすると日本語は文字化け。metabot結構貧弱
+
 ## Timezone設定
 Metabaseのreportのtimezoneは管理画面から変更できるが、  
 Metabaseのシステムのtimezoneの変更は管理画面から出来ないので、  
