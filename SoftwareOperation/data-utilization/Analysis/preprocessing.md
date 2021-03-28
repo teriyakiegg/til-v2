@@ -9,3 +9,15 @@
 　　etc...
 ```
 https://qiita.com/takuya_tsurumi/items/53b9e3f7427b631b17cf
+
+```
+機械学習における前処理にはさまざまな手順がありますが、一般的なものとして、
+
+欠損値の補完・削除
+異常値の補完・削除
+不要行・列の削除
+データ型の変換
+データの変換
+などがあります。
+```
+https://www.softbank.jp/biz/future_stride/entry/techblog/20200625/
