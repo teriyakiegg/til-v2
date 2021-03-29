@@ -59,7 +59,8 @@ BigQueryからCloud SQL連携できる。
 その際はBigQueryをDatabaseとして追加した際に使ったサービスアカウントの権限に「BigQuery Connection User」が必要
 
 ## BigQueryのネストされたフィールド
-SQL書かないと操作できない
+SQL書かないと操作できない  
+データマート使えということかも
 
 ## スプレッドシートデータ連携
 http://beniyama.hatenablog.jp/entry/2019/02/18/080000  
@@ -76,7 +77,7 @@ BigQueryで定期的に(スケジュールされたクエリを新規作成で)S
 良い機能
 
 ## データに対するグラフ自動生成
-勝手に良い感じでグラフを生成してくれる。気楽でとても良い。
+勝手に良い感じでグラフを生成してくれる。気楽でとても良い。が、今の所あんま実用的でない感
 
 ## SQL内での変数使用
 SQL内なのでSQL使用必須
@@ -97,7 +98,8 @@ Metabaseのシステムのtimezoneの変更は管理画面から出来ないの�
 起動時のjavaコマンドの引数に -Duser.timezone=Asia/Tokyo を追加して変更が必要。
 
 ## SQLのフォーマッティング
-Redashにはあるが、Metabaseには無い。しょうがなし
+Redashにはあるが、Metabaseには無い。しょうがなし  
+BigQuery上で出来るので、そっちでやっとくべし
 
 ## metricsとsegments
 - metrics: ユーザー定義の集計
@@ -149,3 +151,7 @@ syntax error...
 
 ## カラムへのMultiply by a number
 見せかけの表示を変えるだけで実際のグラフへは影響が無い
+
+## データ参照元の変更
+クエスチョン編集画面のeditorを表示して、Dataのところをクリックすれば楽に変えれる。  
+ただし、summarizeなどの情報は消える。悲しいが仕方なし
