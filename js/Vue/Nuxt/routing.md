@@ -40,3 +40,7 @@ Nuxt.jsではページ用のディレクトリのpagesにコンポーネント�
 ページを追加する度にVue Routerのrouter.jsファイルを更新する必要がありません。
 ```
 https://reffect.co.jp/vue/nuxt-js-first-step
+
+## from
+from.pathで遷移元のページ名取得できる  
+https://zenn.dev/kokota/articles/486a5eed322bca
