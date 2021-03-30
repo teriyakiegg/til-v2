@@ -1,15 +1,18 @@
 # RESTful API
 
-# Non RESTful
+## Non RESTful
 - /CreateUser
 - /UpdateUser
 - /DeleteUser
 - /GetUser
 
-# RESTful (URL is connected to resource)
+## RESTful (URL is connected to resource)
 - /UserInfo
   - request method
     - POST: create
     - PUT: update
     - DELETE: delete
     - GET: get
+
+## 捉え方
+「URL」で表現した一意の「リソース」を、HTTPプロトコルのGETやPUT等の「メソッド」でどう操作するかを定めたもの、と捉えておけば良さげ
