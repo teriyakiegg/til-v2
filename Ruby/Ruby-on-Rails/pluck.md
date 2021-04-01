@@ -7,3 +7,6 @@ https://pikawaka.com/rails/pluck
 発行されるSQLが違う。  
 mapは全カラム、pluckは指定したカラムのみselectする  
 https://qiita.com/TT-nasu/items/e6971efd1383d7f500dd
+
+Active Recordに対してSQL発行するタイミングではなく、  
+既に取得済みのオブジェクトから特定のフィールド取得したい時はmapで良し
