@@ -1,0 +1,2 @@
+# tcp
+https://techtarget.itmedia.co.jp/tt/news/1909/20/news05.html#:~:text=IP%E3%81%AF%E7%95%B0%E3%81%AA%E3%82%8B%E8%A4%87%E6%95%B0%E3%81%AE,%E3%81%9F%E3%82%81%E3%81%AB%E4%BD%BF%E7%94%A8%E3%81%95%E3%82%8C%E3%82%8B%E3%80%82
