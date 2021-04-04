@@ -166,3 +166,8 @@ syntax error...
 [[AND hoge_id = {{hoge_id}}]]
 ```
 てな感じで[[]]で囲む
+
+## 追加済みのデータベースに新規テーブル追加した時
+すぐにそのテーブルをsimple questionしようとしてもテーブルとして出てこないので、  
+Adminページから該当データベース選択して手動スキャンする  
+https://www.metabase.com/docs/latest/administration-guide/01-managing-databases.html
