@@ -144,3 +144,6 @@ Cmd + Shift + f
 
 ## ASの後のクオーテーション
 MySQLのSQL文だとクオーテーション必要だが、BigQueryのSQL文だとクオーテーションはエラーになるので不要
+
+## NOW()
+MySQLのSQL文だとNOW() - INTERVAL 7 DAYとかで書けるが、BigQueryのSQL文だとDATE_SUB(CURRENT_DATE(), INTERVAL 7 DAY)とかで書く必要あり
