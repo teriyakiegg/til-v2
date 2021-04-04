@@ -139,5 +139,8 @@ https://cloud.google.com/bigquery/docs/locations?hl=ja#moving-data
 期間後はGB単位$0.08になる模様。  
 毎日コピー走らせても毎回全テーブルではなく差分のみのコピーなので、1日分のデーブルのサイズがよほどデカく無ければコストは気になるほどではないはず
 
-# SQL format
+## SQL format
 Cmd + Shift + f
+
+## ASの後のクオーテーション
+MySQLのSQL文だとクオーテーション必要だが、BigQueryのSQL文だとクオーテーションはエラーになるので不要
