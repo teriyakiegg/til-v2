@@ -174,3 +174,6 @@ syntax error...
 すぐにそのテーブルをsimple questionしようとしてもテーブルとして出てこないので、  
 Adminページから該当データベース選択して手動スキャンする  
 https://www.metabase.com/docs/latest/administration-guide/01-managing-databases.html
+
+## Data model
+AdminページのData modelから、テーブルのカラムの型とか詳細、かなり細かく変えられそうなことに気づいた。
