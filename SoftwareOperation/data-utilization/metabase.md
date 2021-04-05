@@ -177,3 +177,6 @@ https://www.metabase.com/docs/latest/administration-guide/01-managing-databases.
 
 ## Data model
 AdminページのData modelから、テーブルのカラムの型とか詳細、かなり細かく変えられそうなことに気づいた。
+
+## パーソナルなコレクション
+管理者でなければ、他のユーザーは他人のパーソナルなコレクションを見れない
