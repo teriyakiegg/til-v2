@@ -130,3 +130,7 @@ https://itsakura.com/sql-cross-join
 条件を変更するときに最初の1行で AND をいちいち追加・削除せずに済む
 ```
 カッコ良い。
+
+## UPDATE JOIN
+質問者と同じ状況になったが、大人しく複数レコードが取れるテーブルに関しては自分で一つに絞れば良さそう  
+https://stackoverflow.com/questions/9502449/updating-and-join-on-multiple-rows-which-rows-value-is-used
