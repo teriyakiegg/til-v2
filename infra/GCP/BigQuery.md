@@ -154,3 +154,9 @@ MySQLのSQL文だとNOW() - INTERVAL 7 DAYとかで書けるが、BigQueryのSQL
 - データ転送機能
 - スケジュールされたクエリ(クエリ結果をテーブルに保存)
 - あとは手動でcsvアップロードとか
+
+## Firebaseログのevent_dateをパース
+```
+parse_date('%Y%m%d', event_date) as event_date
+```
+https://medium.com/google-cloud-jp/firebase-event-analysis-2-sql-9877ca0b79b5
