@@ -39,10 +39,11 @@ https://a-habakiri.hateblo.jp/entry/2016/11/27/223143
 
 BigQueryだとINで配列を指定できないので、
 ```
-ROW_NUMBER() OVER ()AS id,
+ROW_NUMBER() OVER (ORDER BY hoge DESC)AS id,
 ```
 を元のテーブルに付与して、(もしくは既に通し番号があるならそれでok)  
-欲しいレコードのidを抽出するのが良さげ
+欲しいレコードのidを抽出するのが良さげ  
+ROW_NUMBERの注意事項は後述  
 
 日付+他の要素でグルーピングしたい時は、  
 シンプルにGROUP BY date, 他の要素 で書けば良い。  
@@ -51,6 +52,11 @@ ORDER BYに必要な要素もシンプルにGROUP BYに追加すれば良い
 GROUP BYには条件式も使える。  
 CASE文とかも使えるので割と柔軟
 
+## ROW_NUMBER
+行に連番を振りたい時に使える。OVER()に何も指定しないとランダムに行を選ぶ模様。怪しい挙動の温床なので注意。
+```
+ROW_NUMBER() OVER (ORDER BY hoge DESC) AS id
+```
 
 ### HAVING
 GROUP BYで集計関数適用した後の値に対して条件指定したい場合はHAVINGをWHEREと同じノリで使える  
@@ -86,12 +92,6 @@ https://stackoverflow.com/questions/5125076/sql-query-to-select-dates-between-tw
 ## INSERT/UPDATE
 あったり前だが、複数レコード一気に操作できる。
 
-## ROW_NUMBER
-行に連番を振りたい時に使える
-```
-ROW_NUMBER() OVER ()AS id
-```
-
 ## user_id_1, user_id_2で重複するパターンを除きたい時
 https://codingsight.com/multiple-ways-to-remove-duplicates-from-sql-tables/
 
@@ -103,7 +103,7 @@ WHERE hoge.id IN
           hoge t2
      WHERE t1.id < t2.id
        AND t1.user_id_1 = t2.user_id_2
-       AND t1.user_id_2 = t2.user_id_1) 
+       AND t1.user_id_2 = t2.user_id_1)
 ```
 みたいな感じで除ける
 
