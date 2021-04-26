@@ -1,4 +1,4 @@
-# add new table
+# add new table or modify column
 
 ## rails generate migrationコマンドまとめ
 https://qiita.com/zaru/items/cde2c46b6126867a1a64
