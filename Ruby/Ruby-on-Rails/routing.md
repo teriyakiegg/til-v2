@@ -40,3 +40,6 @@ scope :hoge do
     end
 end
 ```
+
+# memberとcollectionの違い
+https://qiita.com/k152744/items/141345e34fc0095217fe
