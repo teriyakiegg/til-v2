@@ -16,3 +16,6 @@ JSON:API の仕様に沿ったシリアライズらしい。
 https://qiita.com/natsuokawai/items/fe56d9b665ed1d1c52e8  
 
 作成者のNetflixも今ではGraphQLに移行してるみたいなので、Fast JSON APIのことは金輪際覚えておかなくて良さそう
+
+## ActiveModel::Serializersの痒い所に手が届く使い方
+https://qiita.com/rh_taro/items/b09b3ebb68c2566c1ee5
