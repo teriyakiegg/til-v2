@@ -1,0 +1,3 @@
+# active record
+- whereとかして取得件数が0でもnilが返ってくるのではなく、ActiveRecord::Relationのオブジェクトが返ってくる
+ -なのでそのオブジェクトにさらにwhereとかしてもundefined methodとかにはならない
