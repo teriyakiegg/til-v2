@@ -1,4 +1,4 @@
-# sage navigation operator
+# safe navigation operator
 https://qiita.com/nashirox/items/0c885edf7d78fd5a83f1#-2
 
 ボッチ演算子と呼ばれてるらしい。
