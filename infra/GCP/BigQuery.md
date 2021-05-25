@@ -166,4 +166,4 @@ https://medium.com/google-cloud-jp/firebase-event-analysis-2-sql-9877ca0b79b5
 
 ## REQUIREDとNULLABLE
 REQUIREDのSTRINGは空文字指定してエラーにならない。  
-カラム自体に何も指定しなかった場合はエラー
+カラム自体に何も指定しなかったりNULLを指定した場合はエラー
