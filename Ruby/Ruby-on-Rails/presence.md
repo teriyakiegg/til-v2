@@ -7,3 +7,15 @@ https://techracho.bpsinc.jp/hachi8833/2021_02_26/62326
 ```
 
 これが欲しかった。感動。
+
+```
+if user.name.blank?
+  name = "What's your name?"
+else
+  name = user.name
+end
+
+↑これがこう↓
+
+name = user.name.presence || "What's your name?"
+```
