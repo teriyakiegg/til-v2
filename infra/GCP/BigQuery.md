@@ -175,3 +175,6 @@ REQUIREDのSTRINGは空文字指定してエラーにならない。
 ```
 TRUNCATE TABLE `project_name`.dataset_name.table_name
 ```
+
+## エディタタブ
+無効の場合と違って、有効にして詳細見ると作成と最終更新にUTC+9が付いてるのが分かる
