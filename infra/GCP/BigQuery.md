@@ -167,3 +167,11 @@ https://medium.com/google-cloud-jp/firebase-event-analysis-2-sql-9877ca0b79b5
 ## REQUIREDとNULLABLE
 REQUIREDのSTRINGは空文字指定してエラーにならない。  
 カラム自体に何も指定しなかったりNULLを指定した場合はエラー
+
+## テーブルをコピー
+テスト環境で作ったテーブルを本番環境に移すのに楽ちん  
+テーブル詳細画面から「テーブルをコピー」選択して、コピー先を指定して、  
+テーブルの中身がいらない場合は以下実行して終わり
+```
+TRUNCATE TABLE `project_name`.dataset_name.table_name
+```
