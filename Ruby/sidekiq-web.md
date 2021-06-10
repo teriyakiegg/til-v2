@@ -26,3 +26,8 @@ sidekiqには監視APIがついており設定にもよりますが、/sidekiq/s
 }
 ```
 https://qiita.com/wapa5pow/items/de6f6718ef9318324c76#stats
+
+## /sidekiq/stats/queues
+https://stackoverflow.com/questions/49819846/rails-access-sidekiq-status-via-api
+
+URLにqueuesを付ければ、キューに詰まってるキー毎の数も取得できる模様
