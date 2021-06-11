@@ -13,3 +13,6 @@ rubyの拡張と、globalのgemにrubocop入れとくのは必要
     "rubocop": true
 },
 ```
+
+## 絶対使っといた方が良い
+- 絶対使っといた方が良い
