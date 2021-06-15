@@ -188,3 +188,6 @@ AdminページのData modelから、テーブルのカラムの型とか詳細�
 ## ダッシュボードでのグラフのVisualization設定変更
 - 元のグラフに影響を与えず、編集しているダッシュボードの中においてのみ、Visualizationの設定を変更できる
 - Visualizationの種類も変更できたら最強だったが今の所それは出来ない
+
+## firebaseのevent_timestamp
+https://stackoverflow.com/questions/59255530/format-event-date-and-event-timestamp-big-query-while-querying-data-in-custom-qu
