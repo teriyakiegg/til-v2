@@ -205,3 +205,11 @@ https://www.metabase.com/docs/v0.29.2/operations-guide/start.html#configuring-th
 基本的にこれに沿えばOK  
 https://www.metabase.com/docs/v0.29.2/operations-guide/start.html#configuring-the-metabase-application-database
 - やってみた感じ、かなりスムーズに出来た
+
+## バージョンアップグレード
+- 公式ドキュメントに沿うべし
+- https://www.metabase.com/docs/latest/operations-guide/upgrading-metabase.html
+- jarなら新バージョン取ってきて差し替えるのみ
+```
+$ sudo curl -LO https://downloads.metabase.com/v0.39.4/metabase.jar
+```
