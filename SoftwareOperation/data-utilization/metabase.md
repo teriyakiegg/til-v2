@@ -198,3 +198,10 @@ Postgres
 For production installations of Metabase we recommend that users replace the H2 database with a more robust option such as Postgres. This offers a greater degree of performance and reliability when Metabase is running with many users.
 https://www.metabase.com/docs/v0.29.2/operations-guide/start.html#configuring-the-metabase-application-database
 ```
+
+## H2からDBへのマイグレーション
+- databaseというデータベースを作成したまっさらなPostgresを用意
+### Migrating from using the H2 database to MySQL or Postgres
+基本的にこれに沿えばOK  
+https://www.metabase.com/docs/v0.29.2/operations-guide/start.html#configuring-the-metabase-application-database
+- やってみた感じ、かなりスムーズに出来た
