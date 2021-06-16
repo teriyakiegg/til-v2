@@ -19,4 +19,4 @@ Creating a personal access token for the command line - User Documentation
 
 - とりあえずsshでやるべし。
 - 自分のプライベートなアカウントでssh key設定しておらず、毎回httpsで通信していたことが発覚して驚愕
-- 毎回パスワード求められなかったのはkeychainに保存されてたからっぽい。OMG
+- 毎回パスワード求められなかったのはkeychainに保存されてたからっぽい。OMG。急いでsshで設定した
