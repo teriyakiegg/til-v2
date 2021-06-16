@@ -191,3 +191,10 @@ AdminページのData modelから、テーブルのカラムの型とか詳細�
 
 ## firebaseのevent_timestamp
 https://stackoverflow.com/questions/59255530/format-event-date-and-event-timestamp-big-query-while-querying-data-in-custom-qu
+
+## H2かDBか
+```
+Postgres
+For production installations of Metabase we recommend that users replace the H2 database with a more robust option such as Postgres. This offers a greater degree of performance and reliability when Metabase is running with many users.
+https://www.metabase.com/docs/v0.29.2/operations-guide/start.html#configuring-the-metabase-application-database
+```
