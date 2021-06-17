@@ -19,3 +19,8 @@ test/test_helper.rb
 require "minitest/reporters"
 Minitest::Reporters.use!
 ```
+
+## Guard
+- 毎回rails t実行しなくてもよくするやーつ
+- $ bundle exec guard init
+- $ bundle exec guard
