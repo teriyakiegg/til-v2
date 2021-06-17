@@ -11,6 +11,8 @@
 - ルーティングとコントローラー設定
 - Git使ったことない初学者はGit周りで挫折しそうな印象
 - git checkout -fのfフラグは知らなかった
+- GitHubは2段階認証設定してるので、personal access token作ってhttpsでCloud9からpushした
+- Rails 6以降ではrails newコマンドでGitリポジトリ作成されるからgit init必要ない模様
 
 ## 第2章
 
