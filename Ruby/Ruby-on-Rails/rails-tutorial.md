@@ -15,6 +15,11 @@
 - Rails 6以降ではrails newコマンドでGitリポジトリ作成されるからgit init必要ない模様
 
 ## 第2章
+- $ git push && git push heroku master これスマート
+- $ rails generate scaffold Hoge カラム で大体必要なのゴリっと自動生成される
+  - Scaffold機能でコードを自動生成すると、Webのあらゆる部分からモデルデータにアクセスしてやりとりできるようになる
+- 欠点: データの検証が行われていない,ユーザー認証が行われていない,テストが書かれていない,レイアウトやスタイルが整っていない
+- $ heroku run rails db:migrate 忘れず
 
 ## 第3章
 
