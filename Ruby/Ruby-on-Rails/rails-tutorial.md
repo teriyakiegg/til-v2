@@ -36,6 +36,7 @@ $ bundle install	$ bundle
 - gミスった時はdで戻せる
 - db:migrateミスったらdb:rollbackは知ってたが、db:migrate VERSION=0で最初の状態に、0を変えれば指定のバージョンまで戻れる、のは知らなかった
 - herokuにmasterブランチ以外のブランチpushしても本番反映されないのうっかりしがち
+- テスト駆動開発、好き
 
 ## 第4章
 
