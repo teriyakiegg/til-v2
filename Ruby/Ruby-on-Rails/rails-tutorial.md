@@ -39,6 +39,8 @@ $ bundle install	$ bundle
 - テスト駆動開発、好き
 
 ## 第4章
+- Ctrl-Pが上矢印キーと同じ挙動をするの初めて知った
+- putsはputの三人称単数現在形ではなく「put string」の略、というの初めて知った
 
 ## 第5章
 
