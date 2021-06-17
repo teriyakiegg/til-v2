@@ -23,6 +23,18 @@
 - 1章、2章で作ったプロジェクトはCloud9からもGitHubからもHerokuからも消しておく
 
 ## 第3章
+- $ rails generate controller StaticPages home help でactionも指定してコントローラー作れる
+```
+完全なコマンド	短縮形
+$ rails server	$ rails s
+$ rails console	$ rails c
+$ rails generate	$ rails g
+$ rails destroy	$ rails d
+$ rails test	$ rails t
+$ bundle install	$ bundle
+```
+- gミスった時はdで戻せる
+- db:migrateミスったらdb:rollbackは知ってたが、db:migrate VERSION=0で最初の状態に、0を変えれば指定のバージョンまで戻れる、のは知らなかった
 
 ## 第4章
 
