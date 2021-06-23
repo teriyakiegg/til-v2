@@ -178,3 +178,7 @@ TRUNCATE TABLE `project_name`.dataset_name.table_name
 
 ## エディタタブ
 無効の場合と違って、有効にして詳細見ると作成と最終更新にUTC+9が付いてるのが分かる
+
+## Qualify句
+もどかしいケースよく遭遇してたので使えそう  
+https://zenn.dev/hrkh/articles/hatena-20210615-124624
