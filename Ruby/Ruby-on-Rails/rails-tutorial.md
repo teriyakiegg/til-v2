@@ -58,6 +58,8 @@ $ bundle install	$ bundle
 
 ## 第5章
 
+- 4章のRubyの文法とこの5章のhtml, cssで独学の初学者なら放り投げそう
+
 ## 第6章
 
 ## 第7章
