@@ -19,6 +19,6 @@
 ## customizeしてみたやつ
 - Toggle Maximized Panel: ターミナルとか出す下部のパネルを上部いっぱいまで表示させる
   - cmd + j でよく出したり引っ込めたりするので、cmd + shift + j を割り当てた
-- エディタとターミナルを移動するショートカットキー作った
+- terminal.focus: エディタとターミナルを移動するショートカットキー作った
   - ctrl + s でエディタからターミナルへ移動  
 https://qiita.com/Shun141/items/fbed88abd4518f6d4039
