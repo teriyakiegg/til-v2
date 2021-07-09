@@ -13,6 +13,9 @@ rubyの拡張と、globalのgemにrubocop入れとくのは必要 `$ gem install
     "rubocop": true
 },
 ```
+workspaceの.rubocop.ymlにrequireされてるものがあればそれもgem installが必要  
+railsだとrubocop-railsとか  
+workspaceで$ rubocopが実行できる状態になれば自動でPROBLEMSにルール違反を検出してくれるようになる
 
 ## DisabledByDefault: true
 デフォルトで全部 disable にして、有効にしたいやつだけ Enable にする、という設定  
