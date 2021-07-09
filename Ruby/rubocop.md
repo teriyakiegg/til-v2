@@ -14,6 +14,9 @@ rubyの拡張と、globalのgemにrubocop入れとくのは必要 `$ gem install
 },
 ```
 
+## DisabledByDefault: true
+デフォルトで全部 disable にして、有効にしたいやつだけ Enable にする、という設定  
+https://hoshinotsuyoshi.com/post/rubocop_yaml/
 
 ## 絶対使っといた方が良い
 - 絶対使っといた方が良い
