@@ -1,3 +1,0 @@
-# dashboard
-docker desktopだと上部バーのdockerマークからdashboard開ける。GUIでdocker操作できるから超楽  
-コンテナとimageの削除超楽。imageの削除は特にunusedだけバサっと消せたり、便利
