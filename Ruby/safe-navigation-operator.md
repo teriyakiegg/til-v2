@@ -14,3 +14,6 @@ something_nil&.profile&.sns&.twitter
 building&.profile&.sns&.twitter
 #=> NoMethodError: undefined method `profile?' for "building":Building
 ```
+
+## #Ruby 配列/ハッシュでぼっち演算子を利用して nil エラーを防ぐ
+https://qiita.com/YumaInaura/items/eb45d79319aeb6c19d46
