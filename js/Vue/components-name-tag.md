@@ -7,3 +7,6 @@ https://qiita.com/t-kigi/items/fcf000c21523d0ea1269
 
 ナンジャこのタグは、と思ったらcomponentsディレクトリに存在するか見れば良さげ  
 タグ書く時はキャメルでもケバブでも識別されるっぽい
+
+## 忘れるとハマる
+「JavaScriptではキャメルケース」「HTMLはケバブケース」
