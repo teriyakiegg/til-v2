@@ -1,4 +1,7 @@
 # hash
+
+- 存在しないキーを指定した場合はデフォルトではnilが返る
+
 ## HashWithIndifferentAccess
 https://qiita.com/hamajyotan/items/085ec6c518fa1f692f24#hashwithindifferentaccess
 ```
