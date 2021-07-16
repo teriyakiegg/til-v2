@@ -19,3 +19,6 @@ https://qiita.com/natsuokawai/items/fe56d9b665ed1d1c52e8
 
 ## ActiveModel::Serializersの痒い所に手が届く使い方
 https://qiita.com/rh_taro/items/b09b3ebb68c2566c1ee5
+
+## RailsデフォルトのJSONレンダリングは遅いので注意。Ruby/RailsでJSON生成時に最もパフォーマンスが良い方法を調べてみた。
+https://qiita.com/ttiger55/items/d144b8094d61b70955bf
