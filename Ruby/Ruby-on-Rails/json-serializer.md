@@ -22,3 +22,6 @@ https://qiita.com/rh_taro/items/b09b3ebb68c2566c1ee5
 
 ## RailsデフォルトのJSONレンダリングは遅いので注意。Ruby/RailsでJSON生成時に最もパフォーマンスが良い方法を調べてみた。
 https://qiita.com/ttiger55/items/d144b8094d61b70955bf
+```
+Oj.load(nil) のときに TypeError が、`Oj.load('')` が nil を返す
+```
