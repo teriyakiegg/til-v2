@@ -30,3 +30,10 @@ if users.present?
   # => 肯定形で条件が書ける
 end
 ```
+
+## とは言え脳死でpresent使わない
+https://moneyforward.com/engineers_blog/2019/03/15/ruby-code-4/
+
+文章として読めるメリットは感じるが、  
+無駄は省くべしで記述量少なくなるメリットも同等に感じる。  
+present?を使う必要がある、例えば空の文字列をtrueにしたくない場合とかのみ使えば良さそうに思う
