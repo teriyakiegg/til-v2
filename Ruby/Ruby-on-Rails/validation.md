@@ -23,3 +23,6 @@ class User < ActiveRecord::Base
   end
 end
 ```
+
+## errors.add詳細
+https://qiita.com/yujiG/items/3e34e2e0e7b4120b0584
