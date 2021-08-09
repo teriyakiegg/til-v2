@@ -1,0 +1,2 @@
+# method plus equal operator
+https://ja.stackoverflow.com/questions/18114/ruby%E3%81%AE%E3%83%A1%E3%82%BD%E3%83%83%E3%83%89%E5%90%8D%E3%81%AE%E6%9C%AB%E5%B0%BE%E3%81%AB-%E3%82%A4%E3%82%B3%E3%83%BC%E3%83%AB
