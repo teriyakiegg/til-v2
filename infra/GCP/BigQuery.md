@@ -182,3 +182,7 @@ TRUNCATE TABLE `project_name`.dataset_name.table_name
 ## Qualify句
 もどかしいケースよく遭遇してたので使えそう  
 https://zenn.dev/hrkh/articles/hatena-20210615-124624
+
+## queryのhistory
+Cloud Console経由だと見れなくてもbqコマンド経由で見れることがあった。  
+権限の問題もありそうだが、深くは見てない
