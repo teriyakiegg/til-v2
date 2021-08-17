@@ -17,6 +17,10 @@ $ rails g model Hoge name:string description:text
 サロゲートキー（id）とレコードの作成日時／更新日時のタイムスタンプは自動で作られる。
 ```
 
+## default値
+コマンドラインからは指定できないっぽいので、  
+migrationファイルが生成されてからそこに , default: "piyo" てな感じで追記する
+
 ## 外部キーに指定してるカラムにunique属性持たせたい
 例
 ```
