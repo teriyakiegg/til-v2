@@ -9,3 +9,18 @@ https://qiita.com/ishidamakot/items/a23b86b9f59ab8e4fbb1
 
 ## factory_bot
 [RailsアプリへのRspecとFactory_botの導入手順](https://qiita.com/Ushinji/items/522ed01c9c14b680222c)
+
+## it
+```
+it "should return hoge" do
+
+end
+```
+で書くと良い感じ
+
+## let
+インスタンス変数宣言出来る
+
+## まとめ
+これが分かりやすかった  
+https://qiita.com/ea54595/items/459727ea8c32fed48b50
