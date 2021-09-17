@@ -24,3 +24,12 @@ end
 ## まとめ
 これが分かりやすかった  
 https://qiita.com/ea54595/items/459727ea8c32fed48b50
+
+## seed
+https://blog.toshimaru.net/rspec-occasional-fail/
+
+## 特定のexampleだけ実行
+もできる。こんな感じ
+```
+bin/rspec './spec/hoge_spec.rb[1:1:2:1:1]'
+```
