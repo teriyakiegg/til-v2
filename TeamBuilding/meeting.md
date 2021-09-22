@@ -41,3 +41,7 @@
 
 # 「自転車置き場の議論」とは
 https://note.com/yukio_tada/n/n259ecb551ddf
+
+# デイリーミーティング
+だいぶ良かったやつ  
+https://bliki-ja.github.io/ItsNotJustStandingUp/
