@@ -61,3 +61,8 @@ subjectを宣言してis_expectedで書くとスマートになりそう
 ## privateメソッドへのテスト
 原則書かないほうが良い。publicメソッド経由でテストできるはず  
 https://highwide.hatenablog.com/entry/2019/03/03/220653
+
+## describeやcontext内での変数の扱い
+```
+`hoge` is not available on an example group (e.g. a `describe` or `context` block). It is only available from within individual examples (e.g. `it` blocks) or from constructs that run in the scope of an example (e.g. `before`, `let`, etc).
+```
