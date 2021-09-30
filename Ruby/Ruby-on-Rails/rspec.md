@@ -33,3 +33,27 @@ https://blog.toshimaru.net/rspec-occasional-fail/
 ```
 bin/rspec './spec/hoge_spec.rb[1:1:2:1:1]'
 ```
+
+## context
+describeで(#|.)関数名 で括って、  
+条件分け毎の括りにcontextを使うとスラスラ書けそう  
+説明文はwhen, with, withoutを使って表現すると良さげ
+
+## let
+は遅延評価される。便利。  
+context毎に変わらないものはdescribe直下に直で宣言して、  
+context毎に変わるものは変数書いといてcontext毎に代入すると記述量だいぶ減りそう  
+let!で遅延無くすことも可能
+
+## shared_context
+別の関数で同じ用なcontextを使ってる場合、shared_context書いてinclude_context使うと楽ちんそう
+
+## it, example, specify
+全部同じ働き
+
+## shared_examples
+異なるcontextでexampleが同じものを多用する場合、shared_examples書いてit_behaves_likeで使い回すのがすっきりしそう
+
+## subject
+shared_examplesと違い、異なるcontextで期待する結果は別だがexpectする対象の関数が同じ場合、  
+subjectを宣言してis_expectedで書くとスマートになりそう
