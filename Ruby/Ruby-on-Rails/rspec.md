@@ -57,3 +57,7 @@ let!で遅延無くすことも可能
 ## subject
 shared_examplesと違い、異なるcontextで期待する結果は別だがexpectする対象の関数が同じ場合、  
 subjectを宣言してis_expectedで書くとスマートになりそう
+
+## privateメソッドへのテスト
+原則書かないほうが良い。publicメソッド経由でテストできるはず  
+https://highwide.hatenablog.com/entry/2019/03/03/220653
