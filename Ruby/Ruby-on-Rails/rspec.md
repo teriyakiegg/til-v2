@@ -66,3 +66,6 @@ https://highwide.hatenablog.com/entry/2019/03/03/220653
 ```
 `hoge` is not available on an example group (e.g. a `describe` or `context` block). It is only available from within individual examples (e.g. `it` blocks) or from constructs that run in the scope of an example (e.g. `before`, `let`, etc).
 ```
+
+## contain_exactly
+https://qiita.com/jnchito/items/2e79a1abe7cd8214caa5#%E9%85%8D%E5%88%97--include
