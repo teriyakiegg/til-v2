@@ -22,6 +22,10 @@ end
 インスタンス変数宣言出来る  
 `let` is not available from within an example (e.g. an `it` block) or from constructs that run in the scope of an example (e.g. `before`, `let`, etc). It is only available on an example group (e.g. a `describe` or `context` block).
 
+## letの上書き
+https://zenn.dev/yuji_developer/articles/52cc0e356b3748#4.-let-%2F-let!-%E3%81%AE%E4%B8%8A%E6%9B%B8%E3%81%8D%E3%82%92%E3%81%97%E3%81%AA%E3%81%84  
+上書きした後のでテストで同じ状態が続くのでハマる原因になりやすいことを実感..................
+
 ## まとめ
 これが分かりやすかった  
 https://qiita.com/ea54595/items/459727ea8c32fed48b50
