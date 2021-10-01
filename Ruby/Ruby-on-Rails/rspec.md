@@ -19,7 +19,8 @@ end
 で書くと良い感じ
 
 ## let
-インスタンス変数宣言出来る
+インスタンス変数宣言出来る  
+`let` is not available from within an example (e.g. an `it` block) or from constructs that run in the scope of an example (e.g. `before`, `let`, etc). It is only available on an example group (e.g. a `describe` or `context` block).
 
 ## まとめ
 これが分かりやすかった  
