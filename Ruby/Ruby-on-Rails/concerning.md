@@ -1,0 +1,2 @@
+# concerning
+https://www.techscore.com/blog/2014/03/17/rails-4-1-0-%E3%81%A7%E8%BF%BD%E5%8A%A0%E3%81%95%E3%82%8C%E3%81%9F-moduleconcerning-%E3%81%A8%E9%96%A2%E5%BF%83%E4%BA%8B%E3%81%AE%E5%88%86%E9%9B%A2/
