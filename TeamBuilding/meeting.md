@@ -45,3 +45,12 @@ https://note.com/yukio_tada/n/n259ecb551ddf
 # デイリーミーティング
 だいぶ良かったやつ  
 https://bliki-ja.github.io/ItsNotJustStandingUp/
+
+## self summary
+- Objective: Early detection and communication of impediments to achieving the sprint goal
+- Goal: Determine if it is safe to proceed with the task. If there is a problem, the next step is decided.
+- How to proceed: Each participant shares 3Q+1. Check the time. Confirm the goal. Confirm team's TODO. Small talk
+    - What did I do yesterday?
+    - What will I do today?
+    - Is there any impediment?
+    - Communication memo?
