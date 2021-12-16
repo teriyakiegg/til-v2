@@ -9,3 +9,9 @@
   - You can also see the schema associated with the record.
 - You can also see the Schema Registry for each Topic.
   - You can also see the version history
+
+## Topic config
+
+### retention.ms
+- The value of retention.ms is going to determine when the Topic records that can be viewed from akhq will disappear.
+  - https://docs.confluent.io/platform/current/installation/configuration/topic-configs.html
