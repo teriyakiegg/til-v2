@@ -7,6 +7,7 @@
 - Details of a Topic can be viewed.
   - If you have permission, you can produce a record from the Topic Details screen.
   - You can also see the schema associated with the record.
+  - If you have permission, you can delete all records from the Topic Details screen.
 - You can also see the Schema Registry for each Topic.
   - You can also see the version history
 
