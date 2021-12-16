@@ -16,3 +16,8 @@
 ### retention.ms
 - The value of retention.ms is going to determine when the Topic records that can be viewed from akhq will disappear.
   - https://docs.confluent.io/platform/current/installation/configuration/topic-configs.html
+
+## Consumer group config
+
+### offset
+https://dattell.com/data-architecture-blog/understanding-kafka-consumer-offset/
