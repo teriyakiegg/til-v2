@@ -59,3 +59,7 @@ nfkがcommand not foundの場合、Macであればhomebrewでnfkはインスト�
 2. Ctrl＋Cでセル”S2”をコピー。
 3. Ctrl＋Shift＋Endで範囲選択。
 4. Enterで選択範囲にペースト。
+
+## VLOOKUP
+
+https://dekiru.net/article/21009/
