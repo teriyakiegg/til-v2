@@ -17,3 +17,9 @@ CPU Memory Values
 4 vCPU	Min. 8 GB and Max. 30 GB, in 1 GB increments
 ```
 https://aws.amazon.com/fargate/pricing/
+
+## Concurrent ECS tasks limit
+```
+You can now launch up to 500 concurrent ECS tasks and EKS pods running on Fargate On-Demand and 500 concurrent ECS tasks running on Fargate Spot, up from 100 and 250 respectively.
+```
+https://aws.amazon.com/about-aws/whats-new/2020/09/aws-fargate-increases-default-resource-count-service-quotas/?nc1=h_ls
