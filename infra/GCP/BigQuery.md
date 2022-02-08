@@ -186,3 +186,9 @@ https://zenn.dev/hrkh/articles/hatena-20210615-124624
 ## queryのhistory
 Cloud Console経由だと見れなくてもbqコマンド経由で見れることがあった。  
 権限の問題もありそうだが、深くは見てない
+
+## INFORMATION_SCHEMA
+```
+INFORMATION_SCHEMA is a series of views that provide access to metadata about datasets, routines, tables, views, jobs, reservations, and streaming data.
+```
+https://cloud.google.com/bigquery/docs/information-schema-jobs
