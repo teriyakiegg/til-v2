@@ -23,3 +23,7 @@ https://aws.amazon.com/fargate/pricing/
 You can now launch up to 500 concurrent ECS tasks and EKS pods running on Fargate On-Demand and 500 concurrent ECS tasks running on Fargate Spot, up from 100 and 250 respectively.
 ```
 https://aws.amazon.com/about-aws/whats-new/2020/09/aws-fargate-increases-default-resource-count-service-quotas/?nc1=h_ls
+
+## Estimate costs
+
+https://calculator.aws/#/createCalculator/Fargate
