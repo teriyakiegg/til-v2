@@ -14,7 +14,3 @@
 
 ## スクラムってカタカナ語が多くて人に説明しにくいって言われたので、スクラム用語使わないで説明する資料作ってみた
 https://twitter.com/ryuzee/status/1367361812736307208
-
-## daily scrum
-- この記事が分かりやすかった
-  - https://do-scrum.com/daily/
